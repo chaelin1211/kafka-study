@@ -93,7 +93,6 @@ class KafkaConfiguration {
 	@Bean
 	JsonMessageConverter jsonMessageConverter() {
 		return new JsonMessageConverter();
-		// 한전이나 Hola는 없이 쓰지만 일단 추가
 	}
 
 	@Bean
